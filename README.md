@@ -281,6 +281,8 @@ When we click on the the Start Challenge on teh 5 sec timer then start the 1 sec
 This occurace is because the 1 sec timer is overriding the 5 sec timer. So we will see the 'You lost!' message. </br>
 Because we have stopped the 1 sec timer immediately that will not show the 'You lost!' message.
 
+Updated explainition- When we click on the 5 sec timer the timer variable is pointed to the 5 sec timer. But when we click on the 1 sec timer the timer is pointing to the 1 sec pointer. Meanwhile, the 5 sec pointer is lost and it excutes after 5 sec and enables the ui to display 'You lost'.
+
 <h3>This is the big issues while working on multiple similar component.</h3>
 
 ```jsx
