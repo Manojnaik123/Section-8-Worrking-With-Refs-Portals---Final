@@ -390,7 +390,7 @@ ResultModal.jsx
 
 ```jsx 
 export default function ResultModal({ result, targetTime }) {
-    return <dialog>
+    return <dialog className="result-modal">
         <h2>You{result}</h2>
         <p>The target time was <strong>{targetTime} seconds. </strong> </p>
         <p>you stopped the timer with X seconds left </p>
@@ -408,7 +408,7 @@ ResultModal.jsx
 
 ```jsx 
 export default function ResultModal({ result, targetTime }) {
-    return <dialog>
+    return <dialog className="result-modal" open>
         <h2>You{result}</h2>
         <p>The target time was <strong>{targetTime} seconds. </strong> </p>
         <p>you stopped the timer with X seconds left </p>
